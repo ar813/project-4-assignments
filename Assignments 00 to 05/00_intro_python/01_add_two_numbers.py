@@ -1,0 +1,14 @@
+def main():
+    
+    num1 : str = input("\nEnter first number: ")
+    num1 : int = int(num1)
+    
+    num2  : str = input("Enter second number: ")
+    num2 : int = int(num2)
+    
+    total : int = num1 + num2
+    print(f"The total is {str(total)}.")
+
+
+if __name__ == '__main__':
+    main()
